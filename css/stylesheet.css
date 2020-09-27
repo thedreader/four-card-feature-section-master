@@ -61,7 +61,7 @@ box-shadow: -2.7px 25px 44px -10px rgba(201,201,201,0.74);
 }
 .svg{
   position: relative;
-  left: 220px;
+  left: 70%;
   top: 35px;
 }
 .heading{
@@ -146,7 +146,7 @@ box-shadow: -2.7px 25px 44px -10px rgba(201,201,201,0.74);
   }
   .svg{
     position: relative;
-    left: 220px;
+    left: 70%;
     top: 35px;
   }
   .heading{
@@ -168,15 +168,15 @@ box-shadow: -2.7px 25px 44px -10px rgba(201,201,201,0.74);
   }
 }
 
-/****** 1440px ******/
-@media screen and (min-width: 1440px) {
+/****** 1200px ******/
+@media screen and (min-width: 1200px) {
   /* header */
   .containers{
     display:flex;
     flex-wrap: wrap;
   }
   .head1{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 200;
     margin-bottom:0;
     margin-top: 85px;
@@ -184,57 +184,69 @@ box-shadow: -2.7px 25px 44px -10px rgba(201,201,201,0.74);
   }
   .head2{
     margin-top:0;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 600;
     color:hsl(234, 12%, 34%);
   }
   .des{
     color:hsl(229, 6%, 66%);
-    width: 55%;
-    margin-left: 22.8%;
-    font-size: 15.5px;
+    width: 41.8%;
+    margin-left: 29.5%;
+    font-size: 13px;
     line-height: 1.65;
-    margin-bottom: 80px;
+    margin-bottom: 75px;
   }
 
   /* midddle content */
 
   .container{
     padding-top: 14px;
-    margin-left: 30px;
+    margin-left: 8.5%;
     margin-bottom: 26px;
     text-align: left;
-    font-size: 0.8rem;
-    width: 45%;
-    height: 170px;
+    font-size: 11px;
+    width: 26.5%;
+    height: 210px;
     background-color: white;
     border-radius: 12px;
     -webkit-box-shadow: -2.7px 25px 44px -10px rgba(201,201,201,0.74);
-  -moz-box-shadow: -2.7px 25px 44px -10px rgba(201,201,201,0.74);
-  box-shadow: -2.7px 25px 44px -10px rgba(201,201,201,0.74);
+    -moz-box-shadow: -2.7px 25px 44px -10px rgba(201,201,201,0.74);
+    box-shadow: -2.7px 25px 44px -10px rgba(201,201,201,0.74);
   }
   .a{
+    position: relative;
+    top: 105px;
     border-top: solid hsl(180, 62%, 55%) 4px;
   }
   .b{
     position: relative;
-    top: 196px;
+    top:0;
+    margin-left: 26px;
     border-top: solid hsl(0, 78%, 62%) 4px;
   }
   .c{
+    order:1;
     position: relative;
-    top: 196px;
+    top: 0;
+    left: 29%;
     border-top: solid hsl(34, 97%, 64%) 4px;
   }
   .d{
+    order:2;
     position: relative;
-    top: 395px;
+    top:-149px;
+    left: 29%;
     border-top: solid hsl(212, 86%, 64%) 4px;
+    margin-left: 25px;
   }
-
+  .svg{
+    position: relative;
+    left: 69%;
+    top: 24px;
+  }
   .heading{
     margin-left: 30px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-bottom: 0;
     color:hsl(234, 12%, 34%);
   }
@@ -246,7 +258,9 @@ box-shadow: -2.7px 25px 44px -10px rgba(201,201,201,0.74);
   }
   .attribution{
     position:relative;
-    left: 216px;
-    bottom: -450px;
+    left:0;
+    right: auto;
+    top: 600px;
+    bottom: 0px;
   }
 }
